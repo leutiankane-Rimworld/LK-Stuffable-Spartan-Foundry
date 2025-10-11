@@ -1,0 +1,4 @@
+# Changelog for LK Stuffable Spartan Foundry
+# Author is LeutianKane
+
+1.0.1.0 ---Initial Release. Patches that make all Power Armor in Rimworld: Spartan Foundry (Continued) Stuffable. ie craftable with 100 metal plus original cost.Spartan Foundry Warcraft supported.

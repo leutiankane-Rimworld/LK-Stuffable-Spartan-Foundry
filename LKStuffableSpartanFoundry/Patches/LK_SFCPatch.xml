@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!--Stuffable armor and helmet patches-->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="SpartanFoundryHelmetsBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="SF_PowerArmorBase"]</xpath>
+		<value>
+		<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="SpartanFoundryHelmetsBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="SF_PowerArmorBase"]</xpath>
+		<value>
+		<costStuffCount>100</costStuffCount>
+		</value>
+	</Operation>	
+</Patch>
